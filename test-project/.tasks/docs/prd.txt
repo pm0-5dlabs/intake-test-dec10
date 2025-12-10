@@ -1,0 +1,9 @@
+# Test Project PRD
+
+This is a test project for validating the intake workflow.
+
+## Features
+
+1. Feature A - Basic functionality
+2. Feature B - Advanced functionality
+3. Feature C - Integration tests

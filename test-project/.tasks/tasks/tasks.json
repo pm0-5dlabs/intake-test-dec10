@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Set up project structure",
+      "description": "Initialize the basic project structure with configuration files",
+      "status": "pending",
+      "priority": "high",
+      "details": "Create package.json, tsconfig.json, and basic directory structure"
+    },
+    {
+      "id": 2,
+      "title": "Implement Feature A",
+      "description": "Build the basic functionality for Feature A",
+      "status": "pending",
+      "priority": "high",
+      "dependencies": [1],
+      "details": "This is the core feature that other features depend on"
+    },
+    {
+      "id": 3,
+      "title": "Implement Feature B",
+      "description": "Build the advanced functionality for Feature B",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": [1, 2],
+      "details": "Advanced features building on top of Feature A"
+    },
+    {
+      "id": 4,
+      "title": "Write integration tests",
+      "description": "Create comprehensive integration tests for all features",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": [2, 3],
+      "details": "Test the interaction between Feature A and Feature B"
+    }
+  ]
+}
